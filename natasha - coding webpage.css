@@ -1,0 +1,64 @@
+*{
+font-family: fantasy;
+}
+ 
+img{
+    width: 100%;
+    border-radius: 4px;
+}
+ 
+ 
+.hero-image{
+     background-image: url("./images/scotland-1987599_1280.jpg") ;
+     height: 352px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+ 
+.hero-text{
+    color: yellow;
+    position: absolute;
+    text-align: center;
+    top: 180px;
+    width: 100%;
+    font-size: 5rem;
+}
+.two-colum{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+ 
+.info{
+    font-size: 1.55em;
+    background-color: rgb(154, 144, 2);
+    align-content: center;
+ 
+}
+ 
+.three-column{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+ 
+}
+ 
+.card{
+    background-color: rgb(139, 139, 0);
+}
+ 
+.card-text{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.natasha{
+    background-color: aqua;
+}

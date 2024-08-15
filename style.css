@@ -1,0 +1,131 @@
+*{
+font-family: fantasy;
+}
+ 
+img{
+    width: 100%;
+    border-radius: 4px;
+}
+
+.image-menu{
+  width: 40%;
+  align-content: center;
+  
+
+}
+ 
+.hero-image{
+     background-image: url("./images/2017.jpg") ;
+     height: 352px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+ 
+.hero-text{
+    color: rgb(246, 255, 0);
+    position: absolute;
+    text-align: center;
+    top: 180px;
+    width: 100%;
+    font-size: 5rem;
+}
+.two-colum{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+ 
+.info{
+    font-size: 1.55em;
+    background-color: rgb(199, 151, 9);
+    align-content: center;
+ 
+}
+ 
+.three-column{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+ 
+}
+ 
+.card{
+    background-color: darkcyan;
+}
+ 
+.card-text{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.natasha{
+    background-color: #40E0D0;
+}
+
+.card-text{
+    text-align: end;
+    color: gold;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    align-content: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #d7de0b;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #e0dd11;
+    color: white;
+  }
+  
+  .topnav-right {
+    float: right;
+    align-content: center;
+  }
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
