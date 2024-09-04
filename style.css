@@ -41,7 +41,7 @@ img{
  
 .info{
     font-size: 1em;
-    background-color: rgb(250, 250, 250);
+    background-color: rgb(251, 251, 251);
     align-content: center;
  
 }
@@ -121,13 +121,13 @@ table {
 }
 
 td, th {
-  border: 1px solid #dddddd;
+  border: 1px solid #9a8b00;
   text-align: left;
   padding: 8px;
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #746200;
 }
 
 
